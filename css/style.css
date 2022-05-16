@@ -240,3 +240,35 @@ body {
     transform: translate(0, 0, 0);
   }
 }
+
+/*accordion list*/
+.js .js-accordion dd {
+  display: none;
+}
+
+.js-accordion dt::after {
+  content: "⤵";
+  margin-left: 10px;
+}
+
+.js-accordion dt.ativo::after {
+  content: "⤴";
+  margin-left: 10px;
+}
+
+.js-accordion dd.ativo {
+  display: block;
+  animation: slideDown .5s forwards;
+}
+
+/*animacao do accordion*/
+@keyframes slideDown {
+  from {
+    max-height: 0;
+    opacity: 0;
+  }
+  to {
+    max-height: 200px;
+    opacity: 1;
+  }
+}
