@@ -6,7 +6,7 @@
   <h3 align="center">Algumas informações</h3>
 
   <p align="center">
-    <a href="https://paulpbi.github.io/animais-fantastico/" target="_blank">Site Finalizado</a>
+    <a href="https://paulpbi.github.io/animais-fantasticos/" target="_blank">Site Finalizado</a>
     ·
     <a href="https://www.instagram.com/paulopbi_/" target="_blank">Instagram</a>
     ·
