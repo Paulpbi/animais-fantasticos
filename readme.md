@@ -43,6 +43,8 @@ A pagina possui alguns efeitos criados do 0 com javascript puro com bastante man
 - Css
 - Javascript
 - Responsividade
+- Css grid
+- Flexbox
 - DOM
 - Keyframes
 - Semantica html
