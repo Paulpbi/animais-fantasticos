@@ -12,7 +12,7 @@
   </head>
   <body>
     <!--menu-->
-    <nav class="menu js-menu">
+    <nav class="menu" data-menu="suave">
       <ul>
         <li><a href="#animais">Animais</a></li>
         <li><a href="#faq">Faq</a></li>
@@ -24,12 +24,11 @@
         </li>
       </ul>
     </nav>
-    <!--final menu-->
 
     <!--hero section-->
-    <section class="grid-section animais js-scroll" id="animais">
+    <section class="grid-section animais" data-anime="scroll" id="animais">
       <h1 class="titulo">Animais Fantasticos</h1>
-      <ul class="animais-lista js-tabmenu">
+      <ul class="animais-lista" data-tab="menu">
         <li>
           <img src="assets/imagem1.jpg" alt="Animal" />
         </li>
@@ -49,9 +48,9 @@
           <img src="assets/imagem6.jpg" alt="Animal" />
         </li>
       </ul>
-      <div class="animais-descricao js-tabcontent">
+      <div class="animais-descricao" data-tab="content">
         <!--section raposa-->
-        <section>
+        <section data-anime="show-right">
           <h2>Raposa</h2>
           <p>
             As raposas são animais mamíferos e onívoros pertencentes à família
@@ -74,7 +73,7 @@
         </section>
 
         <!--section esquilo-->
-        <section>
+        <section data-anime="show-right">
           <h2>Esquilo</h2>
           <p>
             Os esquilos pertencem a uma grande família de mamíferos roedores, de
@@ -107,7 +106,7 @@
         </section>
 
         <!--section urso-->
-        <section>
+        <section data-anime="show-down">
           <h2>Urso</h2>
           <p>
             Os Ursos (latim científico: Ursidae) constituem uma família de
@@ -133,7 +132,7 @@
         </section>
 
         <!--section lobo-->
-        <section>
+        <section data-anime="show-down">
           <h2>Lobo</h2>
           <p>
             O lobo (também chamado de lobo-cinzento; nome científico: Canis
@@ -165,7 +164,7 @@
         </section>
 
         <!--section macaco-->
-        <section>
+        <section data-anime="show-right">
           <h2>Macaco</h2>
           <p>
             Macaco é um termo de origem africana (provavelmente do banto makako)
@@ -191,7 +190,7 @@
         </section>
 
         <!--section leão-->
-        <section>
+        <section data-anime="show-right">
           <h2>Leão</h2>
           <p>
             O leão [feminino: leoa] (nome científico: Panthera leo) é uma
@@ -230,10 +229,10 @@
     <!--final hero-->
 
     <!--section faq -->
-    <section class="grid-section faq js-scroll" id="faq">
+    <section class="grid-section faq" data-anime="scroll" id="faq">
       <h1 class="titulo">FAQ</h1>
       <!--pergunta 1-->
-      <dl class="faq-lista js-accordion">
+      <dl class="faq-lista" data-anime="accordion">
         <dt>Qual a idade dos animais</dt>
         <dd>
           As raposas são animais mamíferos e onívoros pertencentes à família
@@ -266,14 +265,16 @@
     </section>
 
     <!--section contato -->
-    <section class="grid-section contato js-scroll" id="contato">
+    <section class="grid-section contato" data-anime="scroll" id="contato">
       <h1 class="titulo">Contato</h1>
       <div class="mapa">
         <img src="assets/mapa.png" alt="Mapa" />
       </div>
       <ul class="dados">
         <li>paulovictordev16@gmail.com</li>
-        <li><a href="https://github.com/paulopbi" target="_blank">Github</a></li>
+        <li>
+          <a href="https://github.com/paulopbi" target="_blank">Github</a>
+        </li>
         <li>
           <a href="https://www.linkedin.com/in/paulopbi/" target="_blank"
             >Linkedin</a
@@ -282,6 +283,6 @@
         <li>Paracambi - Rio de Janeiro, RJ</li>
       </ul>
     </section>
-    <script src="js/index.js"></script>
+    <script type="module" src="./js/index.js"></script>
   </body>
 </html>
