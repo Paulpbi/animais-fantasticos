@@ -321,3 +321,11 @@ body {
 [data-semana].aberto::after {
   background-color: #3f4;
 }
+
+/*bitcoin api*/
+.btc-preco {
+  font-weight: bold;
+  border-radius: 2px;
+  padding: .2rem .5rem;
+  background-color: #3f4;
+}
