@@ -12,7 +12,7 @@
     ·
     <a href="https://www.linkedin.com/in/paulopbi/" target="_blank">Linkedin</a>
     ·
-    <a href="https://github.com/Paulpbi" target="_blank">Github</a>
+    <a href="https://github.com/paulopbi" target="_blank">Github</a>
   </p>
 </div>
 
