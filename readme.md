@@ -70,6 +70,6 @@ O projeto foi **feito sem nenhuma utilização de frameworks ou plugins**.
 - Semantica html
 - Json
 
-<br>
+<br><br>
 
 <p align="right">(<a href="#top">Voltar ao inicio</a>)</p>
